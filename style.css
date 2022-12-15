@@ -1,0 +1,143 @@
+html,
+body {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+#container {
+  border: 2px solid #00f0ff;
+  height: 650px;
+  width: 550px;
+  margin: 8% auto;
+}
+.mainHeading {
+  font-size: 40px;
+  font-style: inherit;
+  font-family: "FS Display Web", arial, sans-serif;
+  text-shadow: #0a0000 0 0 21px;
+  color: #f8ef00;
+  padding: 0% 67% 0% 4%;
+  margin: 5% 0% 4% 0%;
+}
+#passwordInputBox {
+  height: 50px;
+  width: 450px;
+  font-size: 20px;
+  color: #00f0ff;
+  border: 1px solid #00f0ff;
+  background-color: black;
+}
+#passwordInputBox:active {
+  border: 1px solid #00f0ff;
+}
+.generatePasswordButton {
+  height: 50px;
+  width: 250px;
+  background-color: #f8ef00;
+  color: solid black;
+  font-size: 18px;
+  box-shadow: 0 0 2px 0 #f8ef00;
+}
+.inputBox {
+  height: 500px;
+  width: 800px;
+  margin: -3% 0% 0% 4%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.checkBoxDiv {
+  height: 300px;
+  width: 450px;
+  /* border:2px solid #00f0ff; */
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.checkBox {
+  accent-color: 2px solid#f8ef00;
+  height: 20px;
+  width: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+input[type="checkbox"] {
+  accent-color: #f8ef00;
+}
+input[type="range"] {
+  -webkit-appearance: none;
+  width: 400px;
+  height: 3px;
+  background: #00f0ff;
+  border-radius: 5px;
+  background-image: #00f0ff;
+  cursor: pointer;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 15px;
+  width: 15px;
+  background: #f8ef00;
+  cursor: pointer;
+  box-shadow: 0 0 2px 0 #f8ef00;
+  transition: background 0.3s ease-in-out;
+}
+.spanTagValue {
+  color: #ffffff;
+  font-size: 20px;
+}
+.checkBoxValue {
+  color: #ffffff;
+  font-size: 27px;
+  margin: -9% 0% 0% 15%;
+}
+#checkBoxDiv1 {
+  height: 200px;
+  width: 800px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.copyIcon {
+  font-size: 25px;
+  color: #f8ef00;
+  margin-top: 10px;
+}
+.copyIcon:hover {
+  color: #00f0ff;
+}
+
+#strengthDiv {
+  height: 50px;
+  width: 30px;
+  /* background-color: #feffff; */
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+#strong,
+#medium,
+#weak {
+  height: 10px;
+  width: 30px;
+  border: 1px solid #000303;
+}
+#copyDiv {
+  margin: -14% 0% 0% 78%;
+  height: 50px;
+  width: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+#answerDiv {
+  height: 50px;
+  width: 300px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 25px;
+}

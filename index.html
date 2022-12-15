@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password generator web application</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/79b594a165.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="container">
+      <div id="passwordInputBox">
+        <div id="answerDiv"></div>
+        <div id="copyDiv">
+          <div id="strengthDiv">
+            <div id="strong"></div>
+            <div id="medium"></div>
+            <div id="weak"></div>
+          </div>
+          <i class="fa-solid fa-copy copyIcon" onclick="copy()"></i>
+        </div>
+      </div>
+      <div id="checkBoxDiv1">
+        <input type="checkbox" value="UppercaseLetters" id="checkBox1" class="checkBox" />
+        <label class="checkBoxValue">UppercaseLetters</label>
+        <input type="checkbox" value="LowercaseLetters" class="checkBox" id="checkBox2" />
+        <label class="checkBoxValue">LowercaseLetters</label>
+        <input type="checkbox" value="Symbols" class="checkBox" id="checkBox3" />
+        <label class="checkBoxValue">Symbols</label>
+        <input type="checkbox" value="Numbers" class="checkBox" id="checkBox4" />
+        <label class="checkBoxValue">Numbers</label>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
